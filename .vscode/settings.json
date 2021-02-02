@@ -1,0 +1,4 @@
+{
+    "php-cs-fixer.autoFixBySemicolon": true,
+    "php-cs-fixer.rules": ""
+}

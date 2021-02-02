@@ -1,0 +1,20 @@
+#imgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.insideModal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+#mdImage{
+    grid-column: 1/2;
+}
+#modal-description{
+    grid-column: 2/3;
+}
+.Imagesinfos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}

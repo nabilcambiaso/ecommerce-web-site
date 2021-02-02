@@ -1,0 +1,19 @@
+
+.alert{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+      .error{
+          background-color: rgb(252, 180, 180);
+          padding: 0.5px 30px;
+          border-radius: 10px;
+
+      }
+  }
+.showpassword{
+    font-size: small;
+    color: gray;
+    cursor: pointer;
+    &:hover{
+        color: rgb(77, 76, 76);
+    }}

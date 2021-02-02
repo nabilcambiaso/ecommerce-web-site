@@ -1,0 +1,17 @@
+/*css styles here */
+.main{
+    padding:30px;
+}
+label{
+    font-size: larger;
+
+}
+.verified{
+    color: rgb(174, 186, 240);
+}
+.datepicker{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 238, 238);
+    padding: 1px 28%;
+}

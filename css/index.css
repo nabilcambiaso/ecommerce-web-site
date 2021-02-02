@@ -1,0 +1,91 @@
+
+.thumbnail:hover  {
+    animation: normal;
+    scale: 1.1;
+    box-shadow: 0 0 20px rgb(117, 116, 116);
+    transition: 0.8s;
+    border-radius: 20px;
+    z-index: 111;
+}
+.thumbnail{
+    border-radius: 10px;
+    border: rgb(226, 226, 226) 0.3px solid;
+}
+.t1:hover ,.sideCategorie:hover{
+    animation: normal;
+    scale: 0.9;
+    box-shadow: 0 0 20px rgb(66, 66, 66);
+    transition: 0.8s;
+}
+.dd{
+    z-index: 1000;
+    background-image: url('AdminLogin/images/4.jpg');
+}
+.nv{
+    border-radius: 40px;
+    background-color:  rgb(255, 255, 255);
+    
+}
+input[type=text]:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+input[type=text] , input[type=number] ,input[type=password] ,textarea , select{
+opacity: 0.8;
+box-shadow: 0 1px 3px rgb(202, 201, 201);
+border: none;
+border-radius: 20px;
+}
+.categorieOption{
+    font-size: 13px;
+}
+.searchCategorie{
+    opacity: 0.8;
+box-shadow: 0 1px 3px rgb(202, 201, 201);
+border: none;
+border-radius: 20px;
+height: 23px;
+font-size: small;
+}
+#topMenu li a {
+    color: gray;
+}
+#topMenu li a:hover {
+    color: rgb(97, 96, 96);
+    scale: 0.9;
+}
+#srchFld{padding-left: 30px;}
+.login{
+    background-color: transparent;
+    
+    border: none;
+    border-radius: 10px;
+}
+.well{
+   opacity: 0.9;
+   border-radius: 20px;
+}
+.setting{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.setting:hover{
+    scale: 0.9;
+}
+.commade{
+border-radius: 20px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .thumbnails{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0%,100vw));
+
+    }
+   
+    .promocarousel{
+        display: none;
+    }
+}
+
+

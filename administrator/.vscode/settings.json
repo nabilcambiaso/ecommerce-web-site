@@ -1,0 +1,7 @@
+{
+    "phpfmt.cakephp": true,
+    "phpfmt.exclude": [
+    
+    ],
+    "php.validate.executablePath": ""
+}
